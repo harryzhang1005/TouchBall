@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FABBC15E1C1F20F200A815C7 /* TouchIndicatorRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBC15D1C1F20F200A815C7 /* TouchIndicatorRecognizer.swift */; };
+		FABBC1601C1F36DA00A815C7 /* TouchDelayRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBC15F1C1F36DA00A815C7 /* TouchDelayRecognizer.swift */; };
 		FAF89E9A1C1B52C8009713ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF89E991C1B52C8009713ED /* AppDelegate.swift */; };
 		FAF89E9C1C1B52C8009713ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF89E9B1C1B52C8009713ED /* ViewController.swift */; };
 		FAF89E9F1C1B52C8009713ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF89E9D1C1B52C8009713ED /* Main.storyboard */; };
 		FAF89EA11C1B52C8009713ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF89EA01C1B52C8009713ED /* Assets.xcassets */; };
 		FAF89EA41C1B52C8009713ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF89EA21C1B52C8009713ED /* LaunchScreen.storyboard */; };
+		FAF89EAC1C1B5864009713ED /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF89EAB1C1B5864009713ED /* DotView.swift */; };
+		FAF89EAE1C1B714A009713ED /* OverylayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF89EAD1C1B714A009713ED /* OverylayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FABBC15D1C1F20F200A815C7 /* TouchIndicatorRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchIndicatorRecognizer.swift; sourceTree = "<group>"; };
+		FABBC15F1C1F36DA00A815C7 /* TouchDelayRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDelayRecognizer.swift; sourceTree = "<group>"; };
 		FAF89E961C1B52C8009713ED /* TouchBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF89E991C1B52C8009713ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF89E9B1C1B52C8009713ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		FAF89EA01C1B52C8009713ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF89EA31C1B52C8009713ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAF89EA51C1B52C9009713ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF89EAB1C1B5864009713ED /* DotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+		FAF89EAD1C1B714A009713ED /* OverylayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverylayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		FAF89E981C1B52C8009713ED /* TouchBall */ = {
 			isa = PBXGroup;
 			children = (
-				FAF89E991C1B52C8009713ED /* AppDelegate.swift */,
 				FAF89E9B1C1B52C8009713ED /* ViewController.swift */,
+				FAF89EAB1C1B5864009713ED /* DotView.swift */,
+				FAF89EAD1C1B714A009713ED /* OverylayView.swift */,
+				FABBC15D1C1F20F200A815C7 /* TouchIndicatorRecognizer.swift */,
+				FABBC15F1C1F36DA00A815C7 /* TouchDelayRecognizer.swift */,
 				FAF89E9D1C1B52C8009713ED /* Main.storyboard */,
+				FAF89E991C1B52C8009713ED /* AppDelegate.swift */,
 				FAF89EA01C1B52C8009713ED /* Assets.xcassets */,
 				FAF89EA21C1B52C8009713ED /* LaunchScreen.storyboard */,
 				FAF89EA51C1B52C9009713ED /* Info.plist */,
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF89E9C1C1B52C8009713ED /* ViewController.swift in Sources */,
+				FABBC15E1C1F20F200A815C7 /* TouchIndicatorRecognizer.swift in Sources */,
 				FAF89E9A1C1B52C8009713ED /* AppDelegate.swift in Sources */,
+				FAF89EAC1C1B5864009713ED /* DotView.swift in Sources */,
+				FAF89EAE1C1B714A009713ED /* OverylayView.swift in Sources */,
+				FABBC1601C1F36DA00A815C7 /* TouchDelayRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +302,7 @@
 				FAF89EAA1C1B52C9009713ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
